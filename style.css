@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#controls input,
+#controls select,
+#controls button {
+    padding: 8px;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.card button {
+    margin: 5px 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.highlight {
+    border: 3px solid orange !important;
+    box-shadow: 0 0 10px orange;
+}
+
+#product-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
